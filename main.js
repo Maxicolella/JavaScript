@@ -36,7 +36,7 @@ function sumar (numero1, numero2){
     alert (mensaje);
 };
 
-let numero1 = parceInt(prompt("Ingrese el primer numero"));
-let numero2 = parceInt(prompt("Ingrese el segundo numero"));
+let numero1 = parseInt(prompt("Ingrese el primer numero"));
+let numero2 = parseInt(prompt("Ingrese el segundo numero"));
 
 sumar (numero1, numero2);

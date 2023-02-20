@@ -30,7 +30,6 @@ funtion nombre (parametro1,parametro2,..., parametro n){
 
 // sumar (3,4)
 
-
 function sumar (numero1, numero2){
     let mensaje= `El resultado de la operacion es ${numero1 + numero2}`;
     alert (mensaje);
